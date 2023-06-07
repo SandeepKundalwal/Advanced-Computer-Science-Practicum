@@ -1,0 +1,43 @@
+LOG_FILE="app.log"
+#echo "Enter Computation Type."
+#echo "1. Matrix Multiplication"
+#echo "2. Array Sum"
+#read COMPUTATION_TYPE
+
+echo Starting WorkingWithThreads.jar
+echo "Starting WorkingWithThreads.jar">>$LOG_FILE
+echo "Writing logs in $LOG_FILE"
+for a in 1 2 3
+do
+	echo "Iteration no : $a">>$LOG_FILE	
+	java -jar WorkingWithThreads.jar matrixMultiplication HVSplit 5500 4 false >> $LOG_FILE
+
+	echo "Freeing up resources" >> $LOG_FILE
+	sleep 5
+
+	#java -jar WorkingWithThreads.jar matrixMultiplication VHSplit 500 4 false >> $LOG_FILE
+
+	#echo "Freeing up resources" >> $LOG_FILE
+	#sleep 5
+
+	#java -jar WorkingWithThreads.jar matrixMultiplication DHSplit 5000 8 false >> $LOG_FILE
+
+	#echo "Freeing up resources" >> $LOG_FILE
+	#sleep 5
+
+	#java -jar WorkingWithThreads.jar arraySum forkJoinPool 1000000 4 false >> $LOG_FILE
+
+	#echo "Freeing up resources" >> $LOG_FILE
+	#sleep 5
+
+	#java -jar WorkingWithThreads.jar arraySum ThreadPool 1000000 4 false >> $LOG_FILE
+
+	#echo "Freeing up resources" >> $LOG_FILE
+	#sleep 5
+
+	#java -jar WorkingWithThreads.jar arraySum ManualThread 1000000 4 false >> $LOG_FILE
+	#sleep 120
+done
+
+echo Process Completed.
+echo "Process Completed." >> $LOG_FILE

@@ -1,0 +1,121 @@
+Starting WorkingWithThreads.jar
+Iteration no : 1
+2022-09-20 11:46:58 [main] INFO  Main - Starting Application.
+2022-09-20 11:46:58 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : HVSplit, Size : 5000, Thread count : 4, PrintEnabled : false
+2022-09-20 11:49:35 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 154963ms
+2022-09-20 11:49:35 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 11:49:41 [main] INFO  Main - Starting Application.
+2022-09-20 11:49:41 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : VHSplit, Size : 500, Thread count : 4, PrintEnabled : false
+2022-09-20 11:52:00 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 139221ms
+2022-09-20 11:52:00 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 11:52:06 [main] INFO  Main - Starting Application.
+2022-09-20 11:52:06 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : DHSplit, Size : 5000, Thread count : 8, PrintEnabled : false
+2022-09-20 11:54:13 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 124554ms
+2022-09-20 11:54:13 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 11:54:18 [main] INFO  Main - Starting Application.
+2022-09-20 11:54:18 [main] INFO  Main - Program Input : arraySum, Strategy : forkJoinPool, Size : 1000000, Thread count : 4, PrintEnabled : false
+2022-09-20 11:54:18 [main] INFO  ComputationalServiceImpl - Sum of array : 499002852
+2022-09-20 11:54:18 [main] INFO  ComputationalServiceImpl - Time taken for ArraySum : 14ms
+2022-09-20 11:54:18 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 11:54:24 [main] INFO  Main - Starting Application.
+2022-09-20 11:54:24 [main] INFO  Main - Program Input : arraySum, Strategy : ThreadPool, Size : 1000000, Thread count : 4, PrintEnabled : false
+2022-09-20 11:54:24 [main] INFO  ComputationalServiceImpl - Sum of array : 499002852
+2022-09-20 11:54:24 [main] INFO  ComputationalServiceImpl - Time taken for ArraySum : 9ms
+2022-09-20 11:54:24 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 11:54:29 [main] INFO  Main - Starting Application.
+2022-09-20 11:54:29 [main] INFO  Main - Program Input : arraySum, Strategy : ManualThread, Size : 1000000, Thread count : 4, PrintEnabled : false
+2022-09-20 11:54:29 [main] INFO  ComputationalServiceImpl - Sum of array : 499002852
+2022-09-20 11:54:29 [main] INFO  ComputationalServiceImpl - Time taken for ArraySum : 6ms
+2022-09-20 11:54:29 [main] INFO  Main - Exiting Application.
+Iteration no : 2
+2022-09-20 11:56:30 [main] INFO  Main - Starting Application.
+2022-09-20 11:56:30 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : HVSplit, Size : 5000, Thread count : 4, PrintEnabled : false
+2022-09-20 11:59:10 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 157284ms
+2022-09-20 11:59:10 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 11:59:15 [main] INFO  Main - Starting Application.
+2022-09-20 11:59:15 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : VHSplit, Size : 500, Thread count : 4, PrintEnabled : false
+2022-09-20 12:08:22 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 546086ms
+2022-09-20 12:08:22 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 12:08:27 [main] INFO  Main - Starting Application.
+2022-09-20 12:08:27 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : DHSplit, Size : 5000, Thread count : 8, PrintEnabled : false
+2022-09-20 12:10:32 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 122479ms
+2022-09-20 12:10:32 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 12:10:38 [main] INFO  Main - Starting Application.
+2022-09-20 12:10:38 [main] INFO  Main - Program Input : arraySum, Strategy : forkJoinPool, Size : 1000000, Thread count : 4, PrintEnabled : false
+2022-09-20 12:10:38 [main] INFO  ComputationalServiceImpl - Sum of array : 499002852
+2022-09-20 12:10:38 [main] INFO  ComputationalServiceImpl - Time taken for ArraySum : 20ms
+2022-09-20 12:10:38 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 12:10:43 [main] INFO  Main - Starting Application.
+2022-09-20 12:10:43 [main] INFO  Main - Program Input : arraySum, Strategy : ThreadPool, Size : 1000000, Thread count : 4, PrintEnabled : false
+2022-09-20 12:10:43 [main] INFO  ComputationalServiceImpl - Sum of array : 499002852
+2022-09-20 12:10:43 [main] INFO  ComputationalServiceImpl - Time taken for ArraySum : 8ms
+2022-09-20 12:10:43 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 12:10:49 [main] INFO  Main - Starting Application.
+2022-09-20 12:10:49 [main] INFO  Main - Program Input : arraySum, Strategy : ManualThread, Size : 1000000, Thread count : 4, PrintEnabled : false
+2022-09-20 12:10:49 [main] INFO  ComputationalServiceImpl - Sum of array : 499002852
+2022-09-20 12:10:49 [main] INFO  ComputationalServiceImpl - Time taken for ArraySum : 5ms
+2022-09-20 12:10:49 [main] INFO  Main - Exiting Application.
+Iteration no : 3
+2022-09-20 12:12:49 [main] INFO  Main - Starting Application.
+2022-09-20 12:12:49 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : HVSplit, Size : 5000, Thread count : 4, PrintEnabled : false
+2022-09-20 12:15:27 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 155414ms
+2022-09-20 12:15:27 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 12:15:32 [main] INFO  Main - Starting Application.
+2022-09-20 12:15:32 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : VHSplit, Size : 500, Thread count : 4, PrintEnabled : false
+2022-09-20 12:17:40 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 127339ms
+2022-09-20 12:17:40 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 12:17:45 [main] INFO  Main - Starting Application.
+2022-09-20 12:17:45 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : DHSplit, Size : 5000, Thread count : 8, PrintEnabled : false
+2022-09-20 12:19:49 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 121566ms
+2022-09-20 12:19:49 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 12:19:55 [main] INFO  Main - Starting Application.
+2022-09-20 12:19:55 [main] INFO  Main - Program Input : arraySum, Strategy : forkJoinPool, Size : 1000000, Thread count : 4, PrintEnabled : false
+2022-09-20 12:19:55 [main] INFO  ComputationalServiceImpl - Sum of array : 499002852
+2022-09-20 12:19:55 [main] INFO  ComputationalServiceImpl - Time taken for ArraySum : 23ms
+2022-09-20 12:19:55 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 12:20:00 [main] INFO  Main - Starting Application.
+2022-09-20 12:20:00 [main] INFO  Main - Program Input : arraySum, Strategy : ThreadPool, Size : 1000000, Thread count : 4, PrintEnabled : false
+2022-09-20 12:20:00 [main] INFO  ComputationalServiceImpl - Sum of array : 499002852
+2022-09-20 12:20:00 [main] INFO  ComputationalServiceImpl - Time taken for ArraySum : 8ms
+2022-09-20 12:20:00 [main] INFO  Main - Exiting Application.
+Freeing up resources
+2022-09-20 12:20:06 [main] INFO  Main - Starting Application.
+2022-09-20 12:20:06 [main] INFO  Main - Program Input : arraySum, Strategy : ManualThread, Size : 1000000, Thread count : 4, PrintEnabled : false
+2022-09-20 12:20:06 [main] INFO  ComputationalServiceImpl - Sum of array : 499002852
+2022-09-20 12:20:06 [main] INFO  ComputationalServiceImpl - Time taken for ArraySum : 5ms
+2022-09-20 12:20:06 [main] INFO  Main - Exiting Application.
+Process Completed.
+Starting WorkingWithThreads.jar
+Iteration no : 1
+2022-09-29 12:52:24 [main] INFO  Main - Starting Application.
+2022-09-29 12:52:24 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : HVSplit, Size : 5500, Thread count : 4, PrintEnabled : false
+2022-09-29 12:55:36 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 189137ms
+2022-09-29 12:55:36 [main] INFO  Main - Exiting Application.
+Freeing up resources
+Iteration no : 2
+2022-09-29 12:55:42 [main] INFO  Main - Starting Application.
+2022-09-29 12:55:42 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : HVSplit, Size : 5500, Thread count : 4, PrintEnabled : false
+2022-09-29 12:59:04 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 198475ms
+2022-09-29 12:59:04 [main] INFO  Main - Exiting Application.
+Freeing up resources
+Iteration no : 3
+2022-09-29 12:59:09 [main] INFO  Main - Starting Application.
+2022-09-29 12:59:09 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : HVSplit, Size : 5500, Thread count : 4, PrintEnabled : false
+2022-09-29 13:02:35 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 201994ms
+2022-09-29 13:02:35 [main] INFO  Main - Exiting Application.
+Freeing up resources
+Process Completed.

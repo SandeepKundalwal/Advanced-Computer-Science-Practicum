@@ -1,0 +1,12 @@
+2022-09-29 12:52:24 [main] INFO  Main - Starting Application.
+2022-09-29 12:52:24 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : HVSplit, Size : 5500, Thread count : 4, PrintEnabled : false
+2022-09-29 12:55:36 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 189137ms
+2022-09-29 12:55:36 [main] INFO  Main - Exiting Application.
+2022-09-29 12:55:42 [main] INFO  Main - Starting Application.
+2022-09-29 12:55:42 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : HVSplit, Size : 5500, Thread count : 4, PrintEnabled : false
+2022-09-29 12:59:04 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 198475ms
+2022-09-29 12:59:04 [main] INFO  Main - Exiting Application.
+2022-09-29 12:59:09 [main] INFO  Main - Starting Application.
+2022-09-29 12:59:09 [main] INFO  Main - Program Input : matrixMultiplication, Strategy : HVSplit, Size : 5500, Thread count : 4, PrintEnabled : false
+2022-09-29 13:02:35 [main] INFO  ComputationalServiceImpl - Time taken for Matrix Multiplication : 201994ms
+2022-09-29 13:02:35 [main] INFO  Main - Exiting Application.
